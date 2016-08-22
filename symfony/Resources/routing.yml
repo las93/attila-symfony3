@@ -1,0 +1,4 @@
+attila.generate.scaffolding:
+    resource: "@AttilaSymfony/Controller/"
+    type:     annotation
+    prefix:   /

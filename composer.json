@@ -1,0 +1,23 @@
+{
+    "name": "las93/attila-symfony3",
+    "license": "MIT",
+    "version": "0.0.1",
+    "type": "ORM",
+    "description": "ORM in PHP (adaptator for Symfony3)",
+    "keywords": ["orm"],
+    "homepage": "https://github.com/las93/attila-symfony3",
+    "authors": [
+        {
+            "name": "Paquet Judicaël",
+            "email": "las92i@homail.fr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Las\\Attila\\Symfony": "symfony" }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "las93/attila": "2.0.1"
+    }
+}
